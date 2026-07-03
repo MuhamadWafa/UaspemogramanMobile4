@@ -113,7 +113,7 @@ Pitchat dilengkapi dengan berbagai fitur modern layaknya aplikasi pesan instan p
 ### Berikut adalah penjelasan singkat mengenai elemen-elemen di dalamnya:
 ### Judul Halaman: Terdapat tulisan "Welcome Back" beserta sub-teks "Sign in to continue your chat", yang menyambut kembali pengguna untuk masuk dan melanjutkan obrolan mereka.
 
-Kolom Input (Form):
+### Kolom Input (Form):
 ### Username: Kolom tempat pengguna memasukkan nama pengguna mereka.
 ### Password: Kolom tempat pengguna memasukkan kata sandi akun.
 ### Tombol LOGIN: Tombol berwarna ungu terang yang digunakan untuk memproses masuk ke dalam aplikasi setelah mengisi username dan password.
@@ -121,23 +121,48 @@ Kolom Input (Form):
 ## 3. Buat akun 
 <img width="720" height="1600" alt="Buat akun" src="https://github.com/user-attachments/assets/a76534bb-bb8b-4695-8f75-92cfcc13a977" />
 
-Judul Halaman: "Create Account" dengan keterangan "Daftar akun baru untuk mulai menggunakan Pitchat".
+### Judul Halaman: "Create Account" dengan keterangan "Daftar akun baru untuk mulai menggunakan Pitchat".
 
-Kolom Input: Terdiri dari kolom Username dan Password yang harus diisi untuk membuat akun baru.
+### Kolom Input: Terdiri dari kolom Username dan Password yang harus diisi untuk membuat akun baru.
 
-Tombol REGISTER: Tombol berwarna biru di bagian bawah untuk memproses pendaftaran setelah data diisi.
+### Tombol REGISTER: Tombol berwarna biru di bagian bawah untuk memproses pendaftaran setelah data diisi.
 
 ## 4. Beranda chat
 <img width="720" height="1600" alt="WhatsApp Image 2026-07-03 at 22 53 24" src="https://github.com/user-attachments/assets/01d02cbf-b8fb-4621-8b49-c91a834323b6" />
 
-Menampilkan daftar obrolan aktif (seperti Saiful Udin, Budi Setiawan), fitur pencarian di bagian atas, deretan status terbaru dari pengguna lain, serta tombol besar berwarna biru untuk mengakses fitur chatbot AI.
+### Menampilkan daftar obrolan aktif (seperti Saiful Udin, Budi Setiawan), fitur pencarian di bagian atas, deretan status terbaru dari pengguna lain, serta tombol besar berwarna biru untuk mengakses fitur chatbot AI.
 
 ## 5. Profil Pengguna
 <img width="720" height="1600" alt="WhatsApp Image 2026-07-03 at 22 53 23" src="https://github.com/user-attachments/assets/2ed2bd92-1265-45ae-9e68-fcb53d676fa1" />
 
-Menampilkan halaman profil milik pengguna bernama danil. Di halaman ini terdapat info bio status, tombol hijau untuk mengedit profil, tombol jingga untuk melihat riwayat panggilan, dan tombol merah untuk keluar dari akun (logout).
+### Menampilkan halaman profil milik pengguna bernama danil. Di halaman ini terdapat info bio status, tombol hijau untuk mengedit profil, tombol jingga untuk melihat riwayat panggilan, dan tombol merah untuk keluar dari akun (logout).
 
 ## 6. Fitur AI Asisten Materi (Chatbot)
 <img width="720" height="1600" alt="WhatsApp Image 2026-07-03 at 22 53 23 (1)" src="https://github.com/user-attachments/assets/12feccff-25de-43d6-9563-31b0b8194ed5" />
 
-Menampilkan ruang obrolan dengan AI Materi ChatBot. Asisten ini siap membantu menjawab berbagai pertanyaan seputar kesehatan, resep memasak, keuangan, hingga edukasi umum melalui kolom input di bagian bawah.
+### Menampilkan ruang obrolan dengan AI Materi ChatBot. Asisten ini siap membantu menjawab berbagai pertanyaan seputar kesehatan, resep memasak, keuangan, hingga edukasi umum melalui kolom input di bagian bawah.
+
+## 7.Jendela Atur Status Baru
+<img width="720" height="1600" alt="WhatsApp Image 2026-07-03 at 22 53 23 (3)" src="https://github.com/user-attachments/assets/f89ae217-bab4-4fc8-a271-9354b8b641d0" />
+
+### Menampilkan kotak dialog (pop-up) untuk membuat status baru. Pengguna bisa mengetik teks caption atau menekan tombol abu-abu untuk memilih file foto maupun video langsung dari galeri ponsel.
+
+## 8. Tampilan Status foto/video
+<img width="720" height="1600" alt="WhatsApp Image 2026-07-03 at 22 53 23 (4)" src="https://github.com/user-attachments/assets/04de6fb7-f2b8-4c19-8edd-7cae2257ac47" />
+
+### Menampilkan tampilan latar belakang saat pengguna sedang membuka jendela pembuatan status di atas daftar obrolan utama mereka
+
+## 9. Tampilan Status Ketikan
+<img width="720" height="1600" alt="WhatsApp Image 2026-07-03 at 22 53 22" src="https://github.com/user-attachments/assets/23617fc1-fb4b-43fa-842b-d9c35aec87e0" />
+
+### Menampilkan isi status atau story yang dibagikan oleh kontak bernama Saiful Udin. Status tersebut berbasis teks dengan latar belakang berwarna jingga yang bertuliskan "Lagi belajar Android Studio nih!".
+
+## 10. Fitur Pencarian Obrolan
+<img width="720" height="1600" alt="WhatsApp Image 2026-07-03 at 22 53 22 (1)" src="https://github.com/user-attachments/assets/6e6bea19-ce0b-49c0-b824-3371610968bb" />
+
+### Menampilkan kondisi ketika pengguna menekan kolom pencarian "Cari obrolan..." di halaman utama, sehingga memunculkan papan ketik (keyboard) ponsel untuk mulai mengetik nama kontak.
+
+## 11. Riwayat Panggilan
+<img width="720" height="1600" alt="WhatsApp Image 2026-07-03 at 22 53 22 (2)" src="https://github.com/user-attachments/assets/38b3b339-9215-4e84-a2b9-765f702bda88" />
+
+### Menampilkan halaman riwayat log panggilan telepon di dalam aplikasi. Pada gambar ini, halaman masih kosong dengan keterangan "Belum ada riwayat panggilan", serta dilengkapi opsi "Bersihkan" di pojok kanan atas.
