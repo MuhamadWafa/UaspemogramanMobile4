@@ -5,6 +5,9 @@
 # Tugas akhir uas
 # Donny Maulana, S. Kom., M. M. S. I
 
+# Link Clickup: https://sharing.clickup.com/90181768528/g/h/2kzm15ag-238/48df0a6063fafe0
+
+
 # 📱 Pitchat - Android Chat Application
 
 Pitchat adalah aplikasi pesan instan berbasis Android yang dirancang dengan antarmuka yang bersih, interaktif, dan responsif. Aplikasi ini dibangun secara dinamis tanpa ketergantungan penuh pada layout XML statis, melainkan memanfaatkan konstruksi komponen langsung via kode Java untuk fleksibilitas performa yang maksimal.
