@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECE5DD"
+    android:fitsSystemWindows="true"
+    tools:ignore="HardcodedText,Autofill">
+
+    <LinearLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="12dp"
+        android:background="#FFFFFF"
+        android:elevation="4dp">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:text="←"
+            android:textSize="18sp"
+            android:backgroundTint="#F0F0F0"
+            android:textColor="#1A1A1A"
+            android:padding="0dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#1E88E5"
+            android:layout_marginStart="12dp"/>
+
+        <TextView
+            android:id="@+id/tvNamaChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Pengguna"
+            android:textColor="#1A1A1A"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="12dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="6dp"
+        android:background="#F5F5F5">
+
+        <EditText
+            android:id="@+id/etPesan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_weight="1"
+            android:hint="Ketik pesan..."
+            android:inputType="textLongMessage|textAutoCorrect"
+            android:textColorHint="#9E9E9E"
+            android:textColor="#1A1A1A"
+            android:background="#FFFFFF"
+            android:paddingHorizontal="16dp"/>
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="65dp"
+            android:minHeight="48dp"
+            android:text="Kirim"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:backgroundTint="#1E88E5"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/chatScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topBar"
+        android:layout_above="@id/layoutInput"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/layoutAreaChat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hallo!! Ada yang bisa dibantu?"
+                android:background="#FFFFFF"
+                android:textColor="#1A1A1A"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="8dp"
+                android:textSize="15sp"
+                android:layout_gravity="start"
+                android:layout_marginBottom="12dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

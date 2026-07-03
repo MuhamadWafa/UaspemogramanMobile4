@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F7FA"
+    android:gravity="center_horizontal"
+    android:padding="28dp"
+    tools:ignore="HardcodedText,Autofill,TextFields">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MY PROFILE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#1A1A1A"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp">
+
+        <ImageView
+            android:id="@+id/imgProfileAvatar"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@android:drawable/sym_def_app_icon"
+            android:background="#E0E0E0"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/btnChangePhoto"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@id/imgProfileAvatar"
+            android:layout_alignEnd="@id/imgProfileAvatar"
+            android:src="@android:drawable/ic_menu_camera"
+            android:backgroundTint="#1E88E5"
+            android:background="@android:drawable/toast_frame"
+            android:tint="#FFFFFF"
+            tools:ignore="ContentDescription,UseAppTint" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Akun"
+        android:textColor="#757575"
+        android:textSize="12sp"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- ID: etProfileName wajib ada -->
+    <EditText
+        android:id="@+id/etProfileName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#FFFFFF"
+        android:hint="Masukkan nama kamu"
+        android:textColorHint="#9E9E9E"
+        android:paddingHorizontal="12dp"
+        android:textColor="#1A1A1A"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bio / Status"
+        android:textColor="#757575"
+        android:textSize="12sp"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- ID: etProfileBio wajib ada -->
+    <EditText
+        android:id="@+id/etProfileBio"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#FFFFFF"
+        android:hint="Ada apa hari ini?"
+        android:textColorHint="#9E9E9E"
+        android:paddingHorizontal="12dp"
+        android:textColor="#1A1A1A"
+        android:textSize="14sp"
+        android:inputType="text"
+        android:layout_marginBottom="28dp"/>
+
+    <!-- ID: btnSaveProfile wajib ada -->
+    <Button
+        android:id="@+id/btnSaveProfile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SAVE CHANGES"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:backgroundTint="#1E88E5"/>
+
+</LinearLayout>

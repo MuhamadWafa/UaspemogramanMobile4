@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F7FA">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#1E88E5"
+        android:paddingHorizontal="16dp">
+
+        <TextView
+            android:id="@+id/btnKembaliHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="←"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:paddingRight="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@id/btnKembaliHistory"
+            android:text="Riwayat Panggilan"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btnHapusSemuaHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:text="Bersihkan"
+            android:textColor="#FFCDD2"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvHistoryKosong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Belum ada riwayat panggilan."
+        android:textColor="#7F8C8D"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layoutDaftarHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</LinearLayout>
