@@ -9,8 +9,6 @@
 
 Pitchat adalah aplikasi pesan instan berbasis Android yang dirancang dengan antarmuka yang bersih, interaktif, dan responsif. Aplikasi ini dibangun secara dinamis tanpa ketergantungan penuh pada layout XML statis, melainkan memanfaatkan konstruksi komponen langsung via kode Java untuk fleksibilitas performa yang maksimal.
 
----
-
 ## 🛠️ Teknologi & Bahasa yang Digunakan
 
 Aplikasi ini dibangun menggunakan ekosistem native Android Studio dengan rincian teknologi sebagai berikut:
@@ -114,3 +112,16 @@ SIGN IN (Masuk): Tombol biru untuk pengguna yang sudah punya akun agar bisa lang
 
 CREATE ACCOUNT (Buat Akun): Pilihan di bawahnya untuk pengguna baru yang ingin mendaftar.
 
+## 2. Login
+<img width="720" height="1600" alt="welcome" src="https://github.com/user-attachments/assets/ef21d583-7549-4afa-b3f2-1141a5b26ab5" />
+
+Berikut adalah penjelasan singkat mengenai elemen-elemen di dalamnya:
+Judul Halaman: Terdapat tulisan "Welcome Back" beserta sub-teks "Sign in to continue your chat", yang menyambut kembali pengguna untuk masuk dan melanjutkan obrolan mereka.
+
+Kolom Input (Form):
+
+Username: Kolom tempat pengguna memasukkan nama pengguna mereka.
+
+Password: Kolom tempat pengguna memasukkan kata sandi akun.
+
+Tombol LOGIN: Tombol berwarna ungu terang yang digunakan untuk memproses masuk ke dalam aplikasi setelah mengisi username dan password.
