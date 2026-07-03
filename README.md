@@ -99,6 +99,67 @@ Pitchat dilengkapi dengan berbagai fitur modern layaknya aplikasi pesan instan p
             ├── backup_rules.xml
             └── data_extraction_rules.xml
 ```
+
+## Android manifest
+```python
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+
+        android:icon="@drawable/ic_pitchat_logo"
+        android:roundIcon="@drawable/ic_pitchat_logo"
+
+        android:label="Pitchat"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Pitchat"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".StartActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".RoomChatActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ChatBotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewStatusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CallHistoryActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
+```
 # B. Berikut ini Adalah tampilan dari aplikasi tersebut
 ## 1. Start
 <img width="720" height="1600" alt="Start" src="https://github.com/user-attachments/assets/acd124de-26bb-4704-9803-8a8cbb184098" />
