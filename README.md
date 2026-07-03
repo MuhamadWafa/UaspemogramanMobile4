@@ -128,3 +128,13 @@ Username: Kolom tempat pengguna memasukkan nama pengguna mereka.
 Password: Kolom tempat pengguna memasukkan kata sandi akun.
 
 Tombol LOGIN: Tombol berwarna ungu terang yang digunakan untuk memproses masuk ke dalam aplikasi setelah mengisi username dan password.
+
+## 3. Buat akun 
+<img width="720" height="1600" alt="Buat akun" src="https://github.com/user-attachments/assets/a76534bb-bb8b-4695-8f75-92cfcc13a977" />
+
+Judul Halaman: "Create Account" dengan keterangan "Daftar akun baru untuk mulai menggunakan Pitchat".
+
+Kolom Input: Terdiri dari kolom Username dan Password yang harus diisi untuk membuat akun baru.
+
+Tombol REGISTER: Tombol berwarna biru di bagian bawah untuk memproses pendaftaran setelah data diisi.
+
