@@ -20,7 +20,7 @@ Aplikasi ini dibangun menggunakan ekosistem native Android Studio dengan rincian
 * **SharedPreferences**: Mekanisme penyimpanan data lokal (*local storage*) untuk mengelola sesi login pengguna, data profil, riwayat panggilan, serta konten status.
 * **Google Gson**: Library untuk proses serialisasi dan deserialisasi objek Java ke format JSON, digunakan untuk mengelola struktur data kompleks seperti daftar kontak global dan riwayat panggilan.
 
-## 🚀 Fitur Utama Aplikasi
+## A. 🚀 Fitur Utama Aplikasi
 
 Pitchat dilengkapi dengan berbagai fitur modern layaknya aplikasi pesan instan populer:
 
@@ -98,3 +98,19 @@ Pitchat dilengkapi dengan berbagai fitur modern layaknya aplikasi pesan instan p
             ├── backup_rules.xml
             └── data_extraction_rules.xml
 ```
+# B. Berikut ini Adalah tampilan dari aplikasi tersebut
+## 1. Start
+<img width="720" height="1600" alt="Start" src="https://github.com/user-attachments/assets/acd124de-26bb-4704-9803-8a8cbb184098" />
+
+Berikut adalah penjelasan singkat mengenai elemen-elemen di dalamnya:
+
+Nama & Slogan Aplikasi: Aplikasi ini bernama Pitchat dengan slogan "Simple. Secure. Reliable messaging" (Pesan yang simpel, aman, dan tepercaya). Ini menunjukkan bahwa Pitchat adalah sebuah aplikasi pengirim pesan (chatting).
+
+Logo: Terdapat logo berbentuk bintang berwarna kuning di bagian tengah.
+
+Tombol Navigasi:
+
+SIGN IN (Masuk): Tombol biru untuk pengguna yang sudah punya akun agar bisa langsung masuk.
+
+CREATE ACCOUNT (Buat Akun): Pilihan di bawahnya untuk pengguna baru yang ingin mendaftar.
+
