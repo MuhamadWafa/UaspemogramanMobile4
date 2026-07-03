@@ -138,3 +138,17 @@ Kolom Input: Terdiri dari kolom Username dan Password yang harus diisi untuk mem
 
 Tombol REGISTER: Tombol berwarna biru di bagian bawah untuk memproses pendaftaran setelah data diisi.
 
+## 4. Beranda chat
+<img width="720" height="1600" alt="WhatsApp Image 2026-07-03 at 22 53 24" src="https://github.com/user-attachments/assets/01d02cbf-b8fb-4621-8b49-c91a834323b6" />
+
+Menampilkan daftar obrolan aktif (seperti Saiful Udin, Budi Setiawan), fitur pencarian di bagian atas, deretan status terbaru dari pengguna lain, serta tombol besar berwarna biru untuk mengakses fitur chatbot AI.
+
+## 5. Profil Pengguna
+<img width="720" height="1600" alt="WhatsApp Image 2026-07-03 at 22 53 23" src="https://github.com/user-attachments/assets/2ed2bd92-1265-45ae-9e68-fcb53d676fa1" />
+
+Menampilkan halaman profil milik pengguna bernama danil. Di halaman ini terdapat info bio status, tombol hijau untuk mengedit profil, tombol jingga untuk melihat riwayat panggilan, dan tombol merah untuk keluar dari akun (logout).
+
+## 6. Fitur AI Asisten Materi (Chatbot)
+<img width="720" height="1600" alt="WhatsApp Image 2026-07-03 at 22 53 23 (1)" src="https://github.com/user-attachments/assets/12feccff-25de-43d6-9563-31b0b8194ed5" />
+
+Menampilkan ruang obrolan dengan AI Materi ChatBot. Asisten ini siap membantu menjawab berbagai pertanyaan seputar kesehatan, resep memasak, keuangan, hingga edukasi umum melalui kolom input di bagian bawah.
