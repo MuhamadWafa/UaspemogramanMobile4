@@ -110,16 +110,13 @@ Pitchat dilengkapi dengan berbagai fitur modern layaknya aplikasi pesan instan p
 ## 2. Login
 <img width="720" height="1600" alt="welcome" src="https://github.com/user-attachments/assets/ef21d583-7549-4afa-b3f2-1141a5b26ab5" />
 
-Berikut adalah penjelasan singkat mengenai elemen-elemen di dalamnya:
-Judul Halaman: Terdapat tulisan "Welcome Back" beserta sub-teks "Sign in to continue your chat", yang menyambut kembali pengguna untuk masuk dan melanjutkan obrolan mereka.
+### Berikut adalah penjelasan singkat mengenai elemen-elemen di dalamnya:
+### Judul Halaman: Terdapat tulisan "Welcome Back" beserta sub-teks "Sign in to continue your chat", yang menyambut kembali pengguna untuk masuk dan melanjutkan obrolan mereka.
 
 Kolom Input (Form):
-
-Username: Kolom tempat pengguna memasukkan nama pengguna mereka.
-
-Password: Kolom tempat pengguna memasukkan kata sandi akun.
-
-Tombol LOGIN: Tombol berwarna ungu terang yang digunakan untuk memproses masuk ke dalam aplikasi setelah mengisi username dan password.
+### Username: Kolom tempat pengguna memasukkan nama pengguna mereka.
+### Password: Kolom tempat pengguna memasukkan kata sandi akun.
+### Tombol LOGIN: Tombol berwarna ungu terang yang digunakan untuk memproses masuk ke dalam aplikasi setelah mengisi username dan password.
 
 ## 3. Buat akun 
 <img width="720" height="1600" alt="Buat akun" src="https://github.com/user-attachments/assets/a76534bb-bb8b-4695-8f75-92cfcc13a977" />
