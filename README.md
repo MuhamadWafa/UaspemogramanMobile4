@@ -103,7 +103,9 @@ Pitchat dilengkapi dengan berbagai fitur modern layaknya aplikasi pesan instan p
 ## 1. Start
 <img width="720" height="1600" alt="Start" src="https://github.com/user-attachments/assets/acd124de-26bb-4704-9803-8a8cbb184098" />
 
-### Berikut adalah penjelasan singkat mengenai elemen-elemen di dalamnya: Nama & Slogan Aplikasi: Aplikasi ini bernama Pitchat dengan slogan "Simple. Secure. Reliable messaging" (Pesan yang simpel, aman, dan tepercaya). Ini menunjukkan bahwa Pitchat adalah sebuah aplikasi pengirim pesan (chatting). Logo: Terdapat logo berbentuk bintang berwarna kuning di bagian tengah. Tombol Navigasi: SIGN IN (Masuk): Tombol biru untuk pengguna yang sudah punya akun agar bisa langsung masuk. CREATE ACCOUNT (Buat Akun): Pilihan di bawahnya untuk pengguna baru yang ingin mendaftar.
+### Berikut adalah penjelasan singkat mengenai elemen-elemen di dalamnya: 
+### Nama & Slogan Aplikasi: Aplikasi ini bernama Pitchat dengan slogan "Simple. Secure. Reliable messaging" (Pesan yang simpel, aman, dan tepercaya). Ini menunjukkan bahwa Pitchat adalah sebuah aplikasi pengirim pesan (chatting).
+### Logo: Terdapat logo berbentuk bintang berwarna kuning di bagian tengah. Tombol Navigasi: SIGN IN (Masuk): Tombol biru untuk pengguna yang sudah punya akun agar bisa langsung masuk. CREATE ACCOUNT (Buat Akun): Pilihan di bawahnya untuk pengguna baru yang ingin mendaftar.
 
 ## 2. Login
 <img width="720" height="1600" alt="welcome" src="https://github.com/user-attachments/assets/ef21d583-7549-4afa-b3f2-1141a5b26ab5" />
